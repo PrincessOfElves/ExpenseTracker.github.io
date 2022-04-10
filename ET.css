@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 50px 0 30px;
+}
+
+h3 {
+  color: green;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+input {
+  height: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+p, input {
+  display: inline;
+}
+
+table {
+  width: 95%;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid #FAF3F3;
+  padding: 12px;
+}
+
+tr {
+  background-color: #E1E5EA;
+}
+
+tr:hover {
+  background-color: #A7BBC7;
+}
+
+th {
+  background-color: #DDDDDD;
+}
+
+footer{
+  margin: 200px 0 50px;
+}
+
+.name-input {
+  margin: 0 0 50px 20px;
+  width: 60%;
+}
+
+.date-input {
+  margin: 0 50px 50px 20px;
+  width: 25%;
+}
+
+.amount-input {
+  margin-left: 20px;
+  width: 25%;
+}
+
+.add-btn {
+  background-color: green;
+  width: 116px;
+  padding: 8px 0;
+  margin-bottom: 80px;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #CDF0EA;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.fa-registered{
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 820px) {
+  table {
+      width: 90%;
+  }
+
+  body{
+    font-size:0.8rem;
+  }
+
+  .close{
+    padding: 4px 8px;
+  }
+
+  .date-input {
+    width: 28%;
+  }
+}

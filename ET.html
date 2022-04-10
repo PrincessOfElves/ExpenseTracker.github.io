@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Expense Tracker</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="ET.css">
+
+  <!-- Fontawsome -->
+  <script src="https://kit.fontawesome.com/7424f95343.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <h1>Expense Tracker</h1>
+  <h3>Add a new item</h3>
+  <form>
+    <p>Name:</p><input class="name-input" type="text" placeholder="Where was the expense made?"><br>
+    <p>Date:</p><input class="date-input" placeholder="yyyy/mm/dd" type="date" min="2020-01-01">
+    <p>Amount:</p><input class="amount-input" type="text"><br>
+    <button class="add-btn" id="btn-add" type="button" name="button">Add Expense</button>
+  </form>
+
+  <table id="tracker-table">
+    <colgroup span="4"></colgroup>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Amount</th>
+      <th></th>
+    </tr>
+
+    <tr id="td-one">
+      <td>No expenses added yet!</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+  </table>
+
+  <script src="ET.js" charset="utf-8"></script>
+</body>
+
+<footer><i class="far fa-registered"></i>Expense Tracker</footer>
+
+</html>
